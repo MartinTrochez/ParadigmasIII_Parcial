@@ -6,18 +6,18 @@ let mensajeResultado = document.getElementById('mt_mensaje_resultado');
 let mensajeEleccionComputadora = ['papel', 'roca', 'tijera'];
 let contadorGanados = 0;
 
-juego();
+mt_juego();
 
-function juego() {
+function mt_juego() {
 
     for (let i = 0; i < items.length; i++) {
         const item = items[i];
         item.style.cursor = 'pointer';
-        item.addEventListener('click', clickMouse);
+        item.addEventListener('click', mt_clickMouse);
     }
 }
 
-function clickMouse({target: item}) {
+function mt_clickMouse({target: item}) {
     const eleccionJugador = item.id;
     const numeroAleatorio = Math.floor(Math.random() * 3);
     const eleccionComputadora = jugadas[numeroAleatorio];

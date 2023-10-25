@@ -1,6 +1,6 @@
 <?php
 include('mt_includes/mt_conexion.php');
-conectar();
+mt_conectar();
 ?>
 
 

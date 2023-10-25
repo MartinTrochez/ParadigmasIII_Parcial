@@ -1,6 +1,6 @@
 <?php
 global $con;
-function conectar()
+function mt_conectar()
 {
     $con = mysqli_connect("localhost", "root", "", "menu");
     $ret = false;
