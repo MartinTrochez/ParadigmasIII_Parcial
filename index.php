@@ -53,14 +53,11 @@ conectar();
     <?php
     $sql = "SELECT * FROM reglas";
     $sql = mysqli_query($con, $sql);
-    if (mysqli_num_rows($sql) == -1) {
-        
-    }
     while ($elemento = mysqli_fetch_array($sql)) {
         $regla = $elemento['regla'];
         ?>
         <li>
-            <?php echo '$regla' ?>;
+            <?php echo "$regla"; ?>
         </li>
         <?php
     }
