@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+.mt_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mt_contenedor-puntaje {
+    padding: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 200px;
+    flex: 0.25;
+    align-self: center;
+}
+
+p {
+    text-align: center;
+}
+
+.mt_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mt_contenedor-imagen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
